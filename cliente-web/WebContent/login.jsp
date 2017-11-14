@@ -17,11 +17,13 @@
 
 	<div class="container">
 
-		<form class="form-signin" action="index.jsp">
+		<form class="form-signin" action="/cliente.web/LoginServlet" method>
 			<h2 class="form-signin-heading">Login</h2>
-			<label for="inputEmail" class="sr-only">Usuario]</label> <input
-				type="text" id="inputEmail" class="form-control"
+			
+			<label for="inputEmail" class="sr-only">Usuario]</label> 
+			<input type="text" id="inputEmail" class="form-control"
 				placeholder="Usuario" required autofocus> <label
+				
 				for="inputPassword" class="sr-only">Senha</label> <input
 				type="password" id="inputPassword" class="form-control"
 				placeholder="Senha" required>

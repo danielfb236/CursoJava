@@ -15,8 +15,7 @@ public class UsuarioDao implements IDefautDao{
 		mockUsuarios.add(new Usuario("Jan", "123456"));
 		mockUsuarios.add(new Usuario("Ismael", "1239999"));
 	}
-	
-	
+		
 	
 	@Override
 	public void insert() {
@@ -32,8 +31,7 @@ public class UsuarioDao implements IDefautDao{
 
 	@Override
 	public List<?> select() {
-		// TODO Auto-generated method stub
-		return null;
+			return this.mockUsuarios;
 	}
 
 	@Override
